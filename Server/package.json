@@ -1,14 +1,15 @@
 {
-  "name": "achat-client",
+  "name": "achat-server",
   "version": "1.0.0",
   "description": "",
-  "main": "client(old).js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node dist/Client/src/Client.js"
+    "start": "tsc && node dist/Server/src/Server.js"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.11.1"
   }
